@@ -1,0 +1,378 @@
+# rails-useful-resources
+collection of useful links to blogs, articles, stackoverflow questions etc. which I collected during learning ruby on rails
+
+## For beginners
+
+guides: http://guides.rubyonrails.org/
+
+Michael Hartl book/tutorial: https://www.railstutorial.org/book
+
+## How to learn rails
+
+https://medium.com/@javier_noris/an-outline-to-learning-to-code-in-1-year-572a1a78fa62#.b2jcohyze
+
+## Style guides
+
+ruby: https://github.com/bbatsov/ruby-style-guide
+
+rails: https://github.com/bbatsov/rails-style-guide
+
+## Generators
+
+http://www.korenlc.com/rails-generate-model-vs-resourse-vs-scaffold/
+
+## Active Record
+
+what is index in database: http://stackoverflow.com/questions/1108/how-does-database-indexing-work
+
+take vs limit 1: http://stackoverflow.com/questions/19123293/difference-between-activerecords-finder-methods-take-vs-limit1
+
+size vs count: http://stackoverflow.com/questions/6083219/activerecord-size-vs-count
+
+self references: http://stackoverflow.com/questions/6097288/how-can-i-do-self-reference-with-ruby-on-rails
+
+### Migrations
+
+rename column: http://stackoverflow.com/questions/1992019/how-can-i-rename-a-database-column-in-a-ruby-on-rails-migration
+
+drop table: http://stackoverflow.com/questions/4020131/rails-db-migration-how-to-drop-a-table
+
+drop columns: http://stackoverflow.com/questions/2831059/how-to-drop-columns-using-rails-migration
+
+column types: http://stackoverflow.com/questions/11889048/is-there-documentation-for-the-rails-column-types
+
+### Query
+
+scopes: http://stackoverflow.com/questions/4869994/what-is-scope-named-scope-in-rails
+
+order by count of has_many :through association: http://elegantbrew.tumblr.com/post/118454164260/order-by-count-of-hasmany-through-association-in
+
+### Associations
+
+many to many associations in rails: http://joshfrankel.me/blog/2016/how-to/create-a-many-to-many-activerecord-association-in-ruby-on-rails/
+
+polymorphic associations: https://gorails.com/episodes/comments-with-polymorphic-associations
+
+### Includes
+
+http://tomdallimore.com/blog/includes-vs-joins-in-rails-when-and-where/
+
+http://apidock.com/rails/ActiveRecord/QueryMethods/includes
+
+http://stackoverflow.com/questions/1208636/rails-include-vs-joins
+
+### N+1 Problem
+
+what is n+1 query problem: http://stackoverflow.com/questions/97197/what-is-the-n1-selects-issue
+
+how to diagnose n+1 problem: http://jakeyesbeck.com/2016/04/17/how-to-diagnose-ruby-on-rails-n-plus-1-query-problems/
+
+### Pluck
+
+http://apidock.com/rails/ActiveRecord/Calculations/pluck
+
+http://stackoverflow.com/questions/12176102/what-is-the-difference-between-pluck-and-collect-in-rails
+
+### Tree Structure SQL
+
+https://www.leighhalliday.com/tree-structures-in-your-rails-models
+
+https://hashrocket.com/blog/posts/recursive-sql-in-activerecord
+
+### Tree Structure MongoDB
+
+https://www.codementor.io/mongodb/tutorial/storing-tree-structures-in-mongodb-example-code
+
+## concerns
+
+http://elegantbrew.tumblr.com/post/70990048275/controller-concerns-in-rails-4
+
+## Testing - RSpec
+
+feature tests: https://www.madetech.com/blog/feature-testing-with-rspec
+
+capybara basics: https://www.sitepoint.com/basics-capybara-improving-tests/
+
+https://semaphoreci.com/community/tutorials/how-to-test-rails-models-with-rspec
+
+https://robots.thoughtbot.com/how-we-test-rails-applications
+
+http://betterspecs.org/
+
+https://www.relishapp.com/rspec/rspec-rails/docs/generators
+
+http://code.tutsplus.com/tutorials/ruby-for-newbies-testing-with-rspec--net-21297
+
+http://blog.teamtreehouse.com/an-introduction-to-rspec
+
+http://www.theodinproject.com/ruby-programming/introduction-to-rspec
+
+https://www.youtube.com/watch?v=az4RYzd3Hmc
+
+http://everydayrails.com/2012/07/31/rails-admin-panel-from-scratch.html
+
+https://leanpub.com/everydayrailsrspec/read
+
+## Useful gems
+
+http://danielpuglisi.com/articles/2013/09/10-most-used-gems-in-rails-applications
+
+## Nested forms
+
+http://mendelk.github.io/blog/2013/07/18/patterns-for-saving-associated-model-data-in-rails/
+
+https://www.sitepoint.com/complex-rails-forms-with-nested-attributes/
+
+http://www.createdbypete.com/articles/working-with-nested-forms-and-a-many-to-many-association-in-rails-4/
+
+http://railscasts.com/episodes/196-nested-model-form-part-1
+
+http://homeonrails.com/2012/10/validating-nested-associations-in-rails/
+
+http://stackoverflow.com/questions/2595969/validate-number-of-nested-attributes
+
+http://stackoverflow.com/questions/18436777/how-should-i-use-rails-and-simple-form-for-nested-resources
+
+http://stackoverflow.com/questions/15568431/adding-dynamic-fields-to-nested-form-through-ajax
+
+
+## Seed Database
+
+https://www.quora.com/Is-there-a-way-to-seed-fake-profile-photos-in-a-rails-application-along-the-lines-of-the-Faker-gem
+
+## Pagination
+
+will_paginate gem explained: https://hackhands.com/pagination-rails-will_paginate-gem/
+
+styling pagination: https://thewebfellas.com/blog/revisited-roll-your-own-pagination-links-with-will_paginate-and-rails-3
+
+## Simple_Form
+
+http://arjanvandergaag.nl/blog/simpleform-custom-inputs.html
+
+https://github.com/plataformatec/simple_form
+
+http://simple-form-bootstrap.plataformatec.com.br/documentation
+
+
+## Turbolinks
+
+https://thoughtbot.com/upcase/videos/turbolinks
+
+http://geekmonkey.org/2012/09/introducing-turbolinks-for-rails-4-0/
+
+## Wysiwyg
+
+http://wendybeth.github.io/blog/2014/10/29/how-to-use-ckeditor-with-rails-s-4/
+
+http://stackoverflow.com/questions/18752766/rails-4-with-ckeditor
+
+## Static Pages
+
+http://blog.teamtreehouse.com/static-pages-ruby-rails
+
+http://stackoverflow.com/questions/4479233/static-pages-in-ruby-on-rails
+
+## Routes
+
+http://api.rubyonrails.org/classes/ActionDispatch/Routing.html
+
+### Pretty URLs
+
+https://gist.github.com/jcasimir/1209730
+
+http://olivierlacan.com/posts/migrating-an-ad-hoc-url-slug-system-to-friendly-id/
+
+## Helpers
+
+http://techspry.com/ruby_and_rails/designing-helpers-in-ruby-on-rails/
+
+http://mixandgo.com/blog/the-beginner-s-guide-to-rails-helpers
+
+http://www.rails-dev.com/custom-view-helpers-in-rails-4
+
+
+## Rack
+
+http://stackoverflow.com/questions/2256569/what-is-rack-middleware
+
+https://blog.engineyard.com/2015/understanding-rack-apps-and-middleware
+
+http://blog.gauravchande.com/what-is-rack-in-ruby-rails
+
+http://stackoverflow.com/questions/2256569/what-is-rack-middleware
+
+## Respond_to
+
+http://wiki.summercode.com/cleaner_restful_controllers_with_respond_with
+
+http://www.justinweiss.com/articles/respond-to-without-all-the-pain/
+
+## Authentication and authorization
+
+https://launchschool.com/blog/how-to-use-devise-in-rails-for-authentication
+
+https://github.com/RolifyCommunity/rolify/wiki/Devise---CanCanCan---rolify-Tutorial
+
+http://through-voidness.blogspot.com/2013/10/advanced-rails-4-authorization-with.html
+
+http://blog.carbonfive.com/2013/10/21/migrating-to-pundit-from-cancan/
+
+http://www.tonyamoyal.com/2010/07/28/rails-authentication-with-devise-and-cancan-customizing-devise-controllers/
+
+http://www.tonyamoyal.com/2010/09/29/rails-authentication-with-devise-and-cancan-part-2-restful-resources-for-administrators/
+
+http://stackoverflow.com/questions/11753600/cancan-how-to-allow-users-to-update-and-delete-only-their-own-objects
+
+## Formating dates
+
+http://stackoverflow.com/questions/35633851/date-customization-in-ruby-on-rails
+
+http://stackoverflow.com/questions/22255476/rails-formatting-date
+
+## Layouts
+
+multiple layouts: http://stackoverflow.com/questions/15228228/multiple-layouts-in-ror
+
+yield with default value: http://stackoverflow.com/questions/5922287/rails-3-yield-content-for-with-some-default-value
+
+## HAML
+
+haml basics: https://www.sitepoint.com/an-introduction-to-haml/
+
+convert haml to erb: http://stackoverflow.com/questions/967262/is-there-a-good-haml-erb-html-converter
+
+## Redirect_to vs Render
+
+http://stackoverflow.com/questions/17236122/what-is-the-difference-between-link-to-redirect-to-and-render
+
+## Nil vs Empty vs Blank
+
+http://stackoverflow.com/questions/885414/a-concise-explanation-of-nil-v-empty-v-blank-in-ruby-on-rails
+ 
+# Ruby
+
+operator !!: http://stackoverflow.com/questions/524658/what-does-mean-in-ruby
+
+%w array: http://stackoverflow.com/questions/4455429/rails-using-w
+
+difference between class and klass: http://stackoverflow.com/questions/4299289/what-is-the-difference-between-class-and-klass-in-ruby
+
+send method: http://stackoverflow.com/questions/3337285/what-does-send-do-in-ruby
+
+proc vs lambda: http://stackoverflow.com/questions/1740046/whats-the-difference-between-a-proc-and-a-lambda-in-ruby
+
+class methods vs instance methods: http://www.railstips.org/blog/archives/2009/05/11/class-and-instance-methods-in-ruby/
+
+blocks: http://rubylearning.com/satishtalim/ruby_blocks.html
+
+
+
+## Ruby DSL
+
+https://robots.thoughtbot.com/writing-a-domain-specific-language-in-ruby
+
+http://engineering.gusto.com/benefits-of-writing-a-dsl/
+
+http://rubylearning.com/blog/2010/11/30/how-do-i-build-dsls-with-yield-and-instance_eval/
+
+https://www.leighhalliday.com/creating-ruby-dsl
+
+https://quickleft.com/blog/drying-your-views-with-dsl-s/
+
+http://archive.oreilly.com/pub/post/what_is_a_dsl.html
+
+http://stackoverflow.com/questions/4936146/tutorials-for-writing-dsl-in-ruby
+
+## symbols
+
+http://stackoverflow.com/questions/8189416/why-use-symbols-as-hash-keys-in-ruby
+
+http://stackoverflow.com/questions/16621073/when-to-use-symbols-instead-of-strings-in-ruby
+
+http://stackoverflow.com/questions/255078/whats-the-difference-between-a-string-and-a-symbol-in-ruby
+
+## Constantize
+
+http://stackoverflow.com/questions/2913566/how-do-i-convert-a-string-to-a-class-method
+
+http://stackoverflow.com/questions/8036446/ruby-convert-string-to-method-name
+
+# CSS
+
+css modules in rails: https://medium.com/@fkadev/how-i-implemented-css-modules-to-ruby-on-rails-easily-abb324ce22d
+
+# Javascript
+
+javascript for rails: https://www.netguru.co/blog/java-script-ruby-on-rails-resources
+
+about functions: https://javascriptweblog.wordpress.com/2010/07/06/function-declarations-vs-function-expressions/
+
+## jquery
+
+jquery basics: http://jqfundamentals.com/
+
+## ajax
+
+using ajax in rails: https://launchschool.com/blog/the-detailed-guide-on-how-ajax-works-with-ruby-on-rails
+
+## ember.js
+
+from rails to ember: http://fromrailstoember.com/
+
+## react.js
+
+react on rails: https://medium.com/@fkadev/r³-rails-react-redux-cef9a6e13e32
+
+1 hour course: https://www.udemy.com/react-basic-in-just-1-hour/
+
+# GIT
+
+git basics: http://rogerdudler.github.io/git-guide/
+
+branching: https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+
+# Other Stuff
+
+## Rails Apps Examples
+
+https://vertalab.com/blog/ruby-on-rails-application-examples
+
+
+## Clean Code
+
+https://allenan.com/refactoring-rails-views/
+
+http://codefol.io/posts/Where-Do-I-Put-My-Code
+
+https://infinum.co/the-capsized-eight/articles/top-8-tools-for-ruby-on-rails-code-optimization-and-cleanup
+
+http://stackoverflow.com/questions/14044681/fat-models-and-skinny-controllers-sounds-like-creating-god-models
+
+## job interviews
+
+http://www.skilledup.com/articles/ruby-on-rails-interview-questions-answers
+
+https://www.quora.com/How-do-I-prepare-for-an-entry-level-Ruby-on-Rails-developer-interview-What-questions-should-I-expect
+
+https://www.quora.com/What-skills-must-a-Junior-Rails-Developer-need-know-in-order-to-be-successful-in-getting-an-entry-level-position
+
+https://github.com/gregstallings/ruby-trivia
+
+https://www.interviewcake.com/
+
+https://gist.github.com/ryansobol/5252653
+
+## Becoming junior
+
+https://ericbrooke.wordpress.com/2014/02/23/becoming-a-junior-rails-developer/
+
+## Common mistakes
+
+https://www.toptal.com/ruby-on-rails/top-10-mistakes-that-rails-programmers-make
+
+http://blog.sundaycoding.com/blog/2015/01/31/11-easy-to-fix-ruby-slash-ruby-on-rails-mistakes/
+
+## Code quality
+
+http://www.codelitt.com/blog/pragmatic-approach-building-ruby-rails-apps-quickly-quality-code/
