@@ -143,6 +143,8 @@ http://stackoverflow.com/questions/15568431/adding-dynamic-fields-to-nested-form
 
 ## Layouts
 
+div_for: http://apidock.com/rails/ActionView/Helpers/RecordTagHelper/div_for
+
 multiple layouts: http://stackoverflow.com/questions/15228228/multiple-layouts-in-ror
 
 yield with default value: http://stackoverflow.com/questions/5922287/rails-3-yield-content-for-with-some-default-value
