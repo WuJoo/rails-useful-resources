@@ -19,7 +19,7 @@ rails: https://github.com/bbatsov/rails-style-guide
 
 ## Generators
 
-http://www.korenlc.com/rails-generate-model-vs-resourse-vs-scaffold/
+rails generate command: http://www.korenlc.com/rails-generate-model-vs-resourse-vs-scaffold/
 
 ## Active Record
 
@@ -55,11 +55,9 @@ polymorphic associations: https://gorails.com/episodes/comments-with-polymorphic
 
 ### Includes
 
-http://tomdallimore.com/blog/includes-vs-joins-in-rails-when-and-where/
+docs: http://apidock.com/rails/ActiveRecord/QueryMethods/includes
 
-http://apidock.com/rails/ActiveRecord/QueryMethods/includes
-
-http://stackoverflow.com/questions/1208636/rails-include-vs-joins
+includes vs joins: http://tomdallimore.com/blog/includes-vs-joins-in-rails-when-and-where/
 
 ### N+1 Problem
 
@@ -69,23 +67,146 @@ how to diagnose n+1 problem: http://jakeyesbeck.com/2016/04/17/how-to-diagnose-r
 
 ### Pluck
 
-http://apidock.com/rails/ActiveRecord/Calculations/pluck
+docs: http://apidock.com/rails/ActiveRecord/Calculations/pluck
 
-http://stackoverflow.com/questions/12176102/what-is-the-difference-between-pluck-and-collect-in-rails
+collect vs pluck: http://stackoverflow.com/questions/12176102/what-is-the-difference-between-pluck-and-collect-in-rails
 
-### Tree Structure SQL
+### Tree Structure
 
-https://www.leighhalliday.com/tree-structures-in-your-rails-models
+sql: https://www.leighhalliday.com/tree-structures-in-your-rails-models
 
-https://hashrocket.com/blog/posts/recursive-sql-in-activerecord
+sql: https://hashrocket.com/blog/posts/recursive-sql-in-activerecord
 
-### Tree Structure MongoDB
+mongo db: https://www.codementor.io/mongodb/tutorial/storing-tree-structures-in-mongodb-example-code
 
-https://www.codementor.io/mongodb/tutorial/storing-tree-structures-in-mongodb-example-code
+## Routes / Pretty URLs
 
-## concerns
+docs: http://api.rubyonrails.org/classes/ActionDispatch/Routing.html
+
+a lot about pretty urls: https://gist.github.com/jcasimir/1209730
+
+friendly_it gem: http://olivierlacan.com/posts/migrating-an-ad-hoc-url-slug-system-to-friendly-id/
+
+## Helpers
+
+http://techspry.com/ruby_and_rails/designing-helpers-in-ruby-on-rails/
+
+http://mixandgo.com/blog/the-beginner-s-guide-to-rails-helpers
+
+http://www.rails-dev.com/custom-view-helpers-in-rails-4
+
+## Pagination
+
+will_paginate gem explained: https://hackhands.com/pagination-rails-will_paginate-gem/
+
+styling pagination: https://thewebfellas.com/blog/revisited-roll-your-own-pagination-links-with-will_paginate-and-rails-3
+
+## Concerns
+
+docs: http://api.rubyonrails.org/classes/ActiveSupport/Concern.html
+
+https://richonrails.com/articles/rails-4-code-concerns-in-active-record-models
+
+https://gist.github.com/dhh/1014971
+
+https://signalvnoise.com/posts/3372-put-chubby-models-on-a-diet-with-concerns
+
+http://stackoverflow.com/questions/14541823/how-to-use-concerns-in-rails-4
 
 http://elegantbrew.tumblr.com/post/70990048275/controller-concerns-in-rails-4
+
+## Simple Forms
+
+gem: https://github.com/plataformatec/simple_form
+
+simple form and bootstrap examples: http://simple-form-bootstrap.plataformatec.com.br/documentation
+
+http://arjanvandergaag.nl/blog/simpleform-custom-inputs.html
+
+## Nested forms
+
+http://mendelk.github.io/blog/2013/07/18/patterns-for-saving-associated-model-data-in-rails/
+
+https://www.sitepoint.com/complex-rails-forms-with-nested-attributes/
+
+http://www.createdbypete.com/articles/working-with-nested-forms-and-a-many-to-many-association-in-rails-4/
+
+http://railscasts.com/episodes/196-nested-model-form-part-1
+
+http://homeonrails.com/2012/10/validating-nested-associations-in-rails/
+
+http://stackoverflow.com/questions/2595969/validate-number-of-nested-attributes
+
+http://stackoverflow.com/questions/18436777/how-should-i-use-rails-and-simple-form-for-nested-resources
+
+http://stackoverflow.com/questions/15568431/adding-dynamic-fields-to-nested-form-through-ajax
+
+## Layouts
+
+multiple layouts: http://stackoverflow.com/questions/15228228/multiple-layouts-in-ror
+
+yield with default value: http://stackoverflow.com/questions/5922287/rails-3-yield-content-for-with-some-default-value
+
+## HAML
+
+haml basics: https://www.sitepoint.com/an-introduction-to-haml/
+
+convert haml to erb: http://stackoverflow.com/questions/967262/is-there-a-good-haml-erb-html-converter
+
+## Formating dates
+
+http://stackoverflow.com/questions/35633851/date-customization-in-ruby-on-rails
+
+http://stackoverflow.com/questions/22255476/rails-formatting-date
+
+## Seed Database
+
+https://www.quora.com/Is-there-a-way-to-seed-fake-profile-photos-in-a-rails-application-along-the-lines-of-the-Faker-gem
+
+## Turbolinks
+
+https://thoughtbot.com/upcase/videos/turbolinks
+
+http://geekmonkey.org/2012/09/introducing-turbolinks-for-rails-4-0/
+
+## Wysiwyg
+
+using ckeditor with rails: http://wendybeth.github.io/blog/2014/10/29/how-to-use-ckeditor-with-rails-s-4/
+
+http://stackoverflow.com/questions/18752766/rails-4-with-ckeditor
+
+## Static Pages
+
+http://blog.teamtreehouse.com/static-pages-ruby-rails
+
+http://stackoverflow.com/questions/4479233/static-pages-in-ruby-on-rails
+
+
+## Rack
+
+http://stackoverflow.com/questions/2256569/what-is-rack-middleware
+
+http://blog.gauravchande.com/what-is-rack-in-ruby-rails
+
+https://blog.engineyard.com/2015/understanding-rack-apps-and-middleware
+
+## Authentication and authorization
+
+https://launchschool.com/blog/how-to-use-devise-in-rails-for-authentication
+
+https://github.com/RolifyCommunity/rolify/wiki/Devise---CanCanCan---rolify-Tutorial
+
+http://through-voidness.blogspot.com/2013/10/advanced-rails-4-authorization-with.html
+
+http://blog.carbonfive.com/2013/10/21/migrating-to-pundit-from-cancan/
+
+http://www.tonyamoyal.com/2010/07/28/rails-authentication-with-devise-and-cancan-customizing-devise-controllers/
+
+http://www.tonyamoyal.com/2010/09/29/rails-authentication-with-devise-and-cancan-part-2-restful-resources-for-administrators/
+
+http://stackoverflow.com/questions/11753600/cancan-how-to-allow-users-to-update-and-delete-only-their-own-objects
+
+
 
 ## Testing - RSpec
 
@@ -113,143 +234,17 @@ http://everydayrails.com/2012/07/31/rails-admin-panel-from-scratch.html
 
 https://leanpub.com/everydayrailsrspec/read
 
-## Useful gems
+## Various other things
 
-http://danielpuglisi.com/articles/2013/09/10-most-used-gems-in-rails-applications
+redirect_to vs render: http://stackoverflow.com/questions/17236122/what-is-the-difference-between-link-to-redirect-to-and-render
 
-## Nested forms
+nil vs empty vs blank: http://stackoverflow.com/questions/885414/a-concise-explanation-of-nil-v-empty-v-blank-in-ruby-on-rails
 
-http://mendelk.github.io/blog/2013/07/18/patterns-for-saving-associated-model-data-in-rails/
+respond_with: http://wiki.summercode.com/cleaner_restful_controllers_with_respond_with
 
-https://www.sitepoint.com/complex-rails-forms-with-nested-attributes/
+respond_with: http://www.justinweiss.com/articles/respond-to-without-all-the-pain/
 
-http://www.createdbypete.com/articles/working-with-nested-forms-and-a-many-to-many-association-in-rails-4/
 
-http://railscasts.com/episodes/196-nested-model-form-part-1
-
-http://homeonrails.com/2012/10/validating-nested-associations-in-rails/
-
-http://stackoverflow.com/questions/2595969/validate-number-of-nested-attributes
-
-http://stackoverflow.com/questions/18436777/how-should-i-use-rails-and-simple-form-for-nested-resources
-
-http://stackoverflow.com/questions/15568431/adding-dynamic-fields-to-nested-form-through-ajax
-
-
-## Seed Database
-
-https://www.quora.com/Is-there-a-way-to-seed-fake-profile-photos-in-a-rails-application-along-the-lines-of-the-Faker-gem
-
-## Pagination
-
-will_paginate gem explained: https://hackhands.com/pagination-rails-will_paginate-gem/
-
-styling pagination: https://thewebfellas.com/blog/revisited-roll-your-own-pagination-links-with-will_paginate-and-rails-3
-
-## Simple_Form
-
-http://arjanvandergaag.nl/blog/simpleform-custom-inputs.html
-
-https://github.com/plataformatec/simple_form
-
-http://simple-form-bootstrap.plataformatec.com.br/documentation
-
-
-## Turbolinks
-
-https://thoughtbot.com/upcase/videos/turbolinks
-
-http://geekmonkey.org/2012/09/introducing-turbolinks-for-rails-4-0/
-
-## Wysiwyg
-
-http://wendybeth.github.io/blog/2014/10/29/how-to-use-ckeditor-with-rails-s-4/
-
-http://stackoverflow.com/questions/18752766/rails-4-with-ckeditor
-
-## Static Pages
-
-http://blog.teamtreehouse.com/static-pages-ruby-rails
-
-http://stackoverflow.com/questions/4479233/static-pages-in-ruby-on-rails
-
-## Routes
-
-http://api.rubyonrails.org/classes/ActionDispatch/Routing.html
-
-### Pretty URLs
-
-https://gist.github.com/jcasimir/1209730
-
-http://olivierlacan.com/posts/migrating-an-ad-hoc-url-slug-system-to-friendly-id/
-
-## Helpers
-
-http://techspry.com/ruby_and_rails/designing-helpers-in-ruby-on-rails/
-
-http://mixandgo.com/blog/the-beginner-s-guide-to-rails-helpers
-
-http://www.rails-dev.com/custom-view-helpers-in-rails-4
-
-
-## Rack
-
-http://stackoverflow.com/questions/2256569/what-is-rack-middleware
-
-https://blog.engineyard.com/2015/understanding-rack-apps-and-middleware
-
-http://blog.gauravchande.com/what-is-rack-in-ruby-rails
-
-http://stackoverflow.com/questions/2256569/what-is-rack-middleware
-
-## Respond_to
-
-http://wiki.summercode.com/cleaner_restful_controllers_with_respond_with
-
-http://www.justinweiss.com/articles/respond-to-without-all-the-pain/
-
-## Authentication and authorization
-
-https://launchschool.com/blog/how-to-use-devise-in-rails-for-authentication
-
-https://github.com/RolifyCommunity/rolify/wiki/Devise---CanCanCan---rolify-Tutorial
-
-http://through-voidness.blogspot.com/2013/10/advanced-rails-4-authorization-with.html
-
-http://blog.carbonfive.com/2013/10/21/migrating-to-pundit-from-cancan/
-
-http://www.tonyamoyal.com/2010/07/28/rails-authentication-with-devise-and-cancan-customizing-devise-controllers/
-
-http://www.tonyamoyal.com/2010/09/29/rails-authentication-with-devise-and-cancan-part-2-restful-resources-for-administrators/
-
-http://stackoverflow.com/questions/11753600/cancan-how-to-allow-users-to-update-and-delete-only-their-own-objects
-
-## Formating dates
-
-http://stackoverflow.com/questions/35633851/date-customization-in-ruby-on-rails
-
-http://stackoverflow.com/questions/22255476/rails-formatting-date
-
-## Layouts
-
-multiple layouts: http://stackoverflow.com/questions/15228228/multiple-layouts-in-ror
-
-yield with default value: http://stackoverflow.com/questions/5922287/rails-3-yield-content-for-with-some-default-value
-
-## HAML
-
-haml basics: https://www.sitepoint.com/an-introduction-to-haml/
-
-convert haml to erb: http://stackoverflow.com/questions/967262/is-there-a-good-haml-erb-html-converter
-
-## Redirect_to vs Render
-
-http://stackoverflow.com/questions/17236122/what-is-the-difference-between-link-to-redirect-to-and-render
-
-## Nil vs Empty vs Blank
-
-http://stackoverflow.com/questions/885414/a-concise-explanation-of-nil-v-empty-v-blank-in-ruby-on-rails
- 
 # Ruby
 
 operator !!: http://stackoverflow.com/questions/524658/what-does-mean-in-ruby
