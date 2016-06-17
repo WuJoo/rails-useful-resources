@@ -251,6 +251,8 @@ respond_with: http://www.justinweiss.com/articles/respond-to-without-all-the-pai
 
 operator !!: http://stackoverflow.com/questions/524658/what-does-mean-in-ruby
 
+operator &.: http://mitrev.net/ruby/2015/11/13/the-operator-in-ruby/
+
 %w array: http://stackoverflow.com/questions/4455429/rails-using-w
 
 difference between class and klass: http://stackoverflow.com/questions/4299289/what-is-the-difference-between-class-and-klass-in-ruby
@@ -373,3 +375,9 @@ http://blog.sundaycoding.com/blog/2015/01/31/11-easy-to-fix-ruby-slash-ruby-on-r
 ## Code quality
 
 http://www.codelitt.com/blog/pragmatic-approach-building-ruby-rails-apps-quickly-quality-code/
+
+## Interesting talks:
+
+RailsConf 2014 - Keynote: Writing Software by David Heinemeier Hansson: https://www.youtube.com/watch?v=9LfmrkyP81M
+
+RailsConf 2015 - Nothing is Something: https://www.youtube.com/watch?v=OMPfEXIlTVE
