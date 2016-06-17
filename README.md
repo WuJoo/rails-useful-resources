@@ -183,7 +183,6 @@ http://blog.teamtreehouse.com/static-pages-ruby-rails
 
 http://stackoverflow.com/questions/4479233/static-pages-in-ruby-on-rails
 
-
 ## Rack
 
 http://stackoverflow.com/questions/2256569/what-is-rack-middleware
@@ -207,8 +206,6 @@ http://www.tonyamoyal.com/2010/07/28/rails-authentication-with-devise-and-cancan
 http://www.tonyamoyal.com/2010/09/29/rails-authentication-with-devise-and-cancan-part-2-restful-resources-for-administrators/
 
 http://stackoverflow.com/questions/11753600/cancan-how-to-allow-users-to-update-and-delete-only-their-own-objects
-
-
 
 ## Testing - RSpec
 
@@ -246,6 +243,10 @@ respond_with: http://wiki.summercode.com/cleaner_restful_controllers_with_respon
 
 respond_with: http://www.justinweiss.com/articles/respond-to-without-all-the-pain/
 
+simple search example: http://www.korenlc.com/creating-a-simple-search-in-rails-4/
+
+search concern example: http://www.justinweiss.com/articles/search-and-filter-rails-models-without-bloating-your-controller/
+
 
 # Ruby
 
@@ -256,6 +257,8 @@ operator &.: http://mitrev.net/ruby/2015/11/13/the-operator-in-ruby/
 %w array: http://stackoverflow.com/questions/4455429/rails-using-w
 
 difference between class and klass: http://stackoverflow.com/questions/4299289/what-is-the-difference-between-class-and-klass-in-ruby
+
+metaprogramming: https://blog.codeship.com/metaprogramming-in-ruby/?utm_source=rubyweekly&utm_medium=email
 
 send method: http://stackoverflow.com/questions/3337285/what-does-send-do-in-ruby
 
@@ -375,6 +378,10 @@ http://blog.sundaycoding.com/blog/2015/01/31/11-easy-to-fix-ruby-slash-ruby-on-r
 ## Code quality
 
 http://www.codelitt.com/blog/pragmatic-approach-building-ruby-rails-apps-quickly-quality-code/
+
+## ZSH Shell
+
+zsh for rails: https://viblo.asia/zenith.it/posts/aKYMNj6YM83E
 
 ## Interesting talks:
 
