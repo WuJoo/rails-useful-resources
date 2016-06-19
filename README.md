@@ -19,7 +19,9 @@ rails: https://github.com/bbatsov/rails-style-guide
 
 ## Generators
 
-rails generate command: http://www.korenlc.com/rails-generate-model-vs-resourse-vs-scaffold/
+generate model/resource/scaffold: http://www.korenlc.com/rails-generate-model-vs-resourse-vs-scaffold/
+
+rspec generate: https://www.relishapp.com/rspec/rspec-rails/docs/generators
 
 ## Active Record
 
@@ -93,15 +95,38 @@ designing helpers: http://techspry.com/ruby_and_rails/designing-helpers-in-ruby-
 
 docs: http://api.rubyonrails.org/classes/ActiveSupport/Concern.html
 
-https://richonrails.com/articles/rails-4-code-concerns-in-active-record-models
+concern example: https://gist.github.com/dhh/1014971
 
-https://gist.github.com/dhh/1014971
+another concern example:https://richonrails.com/articles/rails-4-code-concerns-in-active-record-models
 
-https://signalvnoise.com/posts/3372-put-chubby-models-on-a-diet-with-concerns
+model refactor with concern: https://signalvnoise.com/posts/3372-put-chubby-models-on-a-diet-with-concerns
 
-http://stackoverflow.com/questions/14541823/how-to-use-concerns-in-rails-4
+when use concerns: http://stackoverflow.com/questions/14541823/how-to-use-concerns-in-rails-4
 
-http://elegantbrew.tumblr.com/post/70990048275/controller-concerns-in-rails-4
+controller concern: http://elegantbrew.tumblr.com/post/70990048275/controller-concerns-in-rails-4
+
+
+## Layouts
+
+div_for: http://apidock.com/rails/ActionView/Helpers/RecordTagHelper/div_for
+
+multiple layouts: http://stackoverflow.com/questions/15228228/multiple-layouts-in-ror
+
+yield with default value: http://stackoverflow.com/questions/5922287/rails-3-yield-content-for-with-some-default-value
+
+## HAML
+
+haml basics: https://www.sitepoint.com/an-introduction-to-haml/
+
+convert haml to erb: http://stackoverflow.com/questions/967262/is-there-a-good-haml-erb-html-converter
+
+## Rack
+
+what is rack: http://blog.gauravchande.com/what-is-rack-in-ruby-rails
+
+understanding rack: https://blog.engineyard.com/2015/understanding-rack-apps-and-middleware
+
+http://stackoverflow.com/questions/2256569/what-is-rack-middleware
 
 ## Nested forms
 
@@ -121,28 +146,6 @@ http://stackoverflow.com/questions/18436777/how-should-i-use-rails-and-simple-fo
 
 http://stackoverflow.com/questions/15568431/adding-dynamic-fields-to-nested-form-through-ajax
 
-## Layouts
-
-div_for: http://apidock.com/rails/ActionView/Helpers/RecordTagHelper/div_for
-
-multiple layouts: http://stackoverflow.com/questions/15228228/multiple-layouts-in-ror
-
-yield with default value: http://stackoverflow.com/questions/5922287/rails-3-yield-content-for-with-some-default-value
-
-## HAML
-
-haml basics: https://www.sitepoint.com/an-introduction-to-haml/
-
-convert haml to erb: http://stackoverflow.com/questions/967262/is-there-a-good-haml-erb-html-converter
-
-## Rack
-
-http://stackoverflow.com/questions/2256569/what-is-rack-middleware
-
-http://blog.gauravchande.com/what-is-rack-in-ruby-rails
-
-https://blog.engineyard.com/2015/understanding-rack-apps-and-middleware
-
 ## Authentication and authorization
 
 https://launchschool.com/blog/how-to-use-devise-in-rails-for-authentication
@@ -161,29 +164,19 @@ http://stackoverflow.com/questions/11753600/cancan-how-to-allow-users-to-update-
 
 ## Testing - RSpec
 
+introduction to rspec: http://blog.teamtreehouse.com/an-introduction-to-rspec
+
+examples of different tests: https://robots.thoughtbot.com/how-we-test-rails-applications
+
 feature tests: https://www.madetech.com/blog/feature-testing-with-rspec
 
 capybara basics: https://www.sitepoint.com/basics-capybara-improving-tests/
 
-https://semaphoreci.com/community/tutorials/how-to-test-rails-models-with-rspec
+testing models: https://semaphoreci.com/community/tutorials/how-to-test-rails-models-with-rspec
 
-https://robots.thoughtbot.com/how-we-test-rails-applications
+rspec best practises: http://betterspecs.org/
 
-http://betterspecs.org/
-
-https://www.relishapp.com/rspec/rspec-rails/docs/generators
-
-http://code.tutsplus.com/tutorials/ruby-for-newbies-testing-with-rspec--net-21297
-
-http://blog.teamtreehouse.com/an-introduction-to-rspec
-
-http://www.theodinproject.com/ruby-programming/introduction-to-rspec
-
-https://www.youtube.com/watch?v=az4RYzd3Hmc
-
-http://everydayrails.com/2012/07/31/rails-admin-panel-from-scratch.html
-
-https://leanpub.com/everydayrailsrspec/read
+Everyday Rails Testing with RSpec - book: https://leanpub.com/everydayrailsrspec/read
 
 ## Various other things
 
