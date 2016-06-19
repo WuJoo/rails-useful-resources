@@ -31,6 +31,16 @@ size vs count: http://stackoverflow.com/questions/6083219/activerecord-size-vs-c
 
 self references: http://stackoverflow.com/questions/6097288/how-can-i-do-self-reference-with-ruby-on-rails
 
+pluck docs: http://apidock.com/rails/ActiveRecord/Calculations/pluck
+
+collect vs pluck: http://stackoverflow.com/questions/12176102/what-is-the-difference-between-pluck-and-collect-in-rails
+
+sql tree structure1: https://www.leighhalliday.com/tree-structures-in-your-rails-models
+
+sql tree structure2: https://hashrocket.com/blog/posts/recursive-sql-in-activerecord
+
+mongo db tree structure: https://www.codementor.io/mongodb/tutorial/storing-tree-structures-in-mongodb-example-code
+
 ### Migrations
 
 rename column: http://stackoverflow.com/questions/1992019/how-can-i-rename-a-database-column-in-a-ruby-on-rails-migration
@@ -65,20 +75,6 @@ what is n+1 query problem: http://stackoverflow.com/questions/97197/what-is-the-
 
 how to diagnose n+1 problem: http://jakeyesbeck.com/2016/04/17/how-to-diagnose-ruby-on-rails-n-plus-1-query-problems/
 
-### Pluck
-
-docs: http://apidock.com/rails/ActiveRecord/Calculations/pluck
-
-collect vs pluck: http://stackoverflow.com/questions/12176102/what-is-the-difference-between-pluck-and-collect-in-rails
-
-### Tree Structure
-
-sql: https://www.leighhalliday.com/tree-structures-in-your-rails-models
-
-sql: https://hashrocket.com/blog/posts/recursive-sql-in-activerecord
-
-mongo db: https://www.codementor.io/mongodb/tutorial/storing-tree-structures-in-mongodb-example-code
-
 ## Routes / Pretty URLs
 
 docs: http://api.rubyonrails.org/classes/ActionDispatch/Routing.html
@@ -89,17 +85,9 @@ friendly_it gem: http://olivierlacan.com/posts/migrating-an-ad-hoc-url-slug-syst
 
 ## Helpers
 
-http://techspry.com/ruby_and_rails/designing-helpers-in-ruby-on-rails/
+helper example: http://www.rails-dev.com/custom-view-helpers-in-rails-4
 
-http://mixandgo.com/blog/the-beginner-s-guide-to-rails-helpers
-
-http://www.rails-dev.com/custom-view-helpers-in-rails-4
-
-## Pagination
-
-will_paginate gem explained: https://hackhands.com/pagination-rails-will_paginate-gem/
-
-styling pagination: https://thewebfellas.com/blog/revisited-roll-your-own-pagination-links-with-will_paginate-and-rails-3
+designing helpers: http://techspry.com/ruby_and_rails/designing-helpers-in-ruby-on-rails/
 
 ## Concerns
 
@@ -114,14 +102,6 @@ https://signalvnoise.com/posts/3372-put-chubby-models-on-a-diet-with-concerns
 http://stackoverflow.com/questions/14541823/how-to-use-concerns-in-rails-4
 
 http://elegantbrew.tumblr.com/post/70990048275/controller-concerns-in-rails-4
-
-## Simple Forms
-
-gem: https://github.com/plataformatec/simple_form
-
-simple form and bootstrap examples: http://simple-form-bootstrap.plataformatec.com.br/documentation
-
-http://arjanvandergaag.nl/blog/simpleform-custom-inputs.html
 
 ## Nested forms
 
@@ -154,34 +134,6 @@ yield with default value: http://stackoverflow.com/questions/5922287/rails-3-yie
 haml basics: https://www.sitepoint.com/an-introduction-to-haml/
 
 convert haml to erb: http://stackoverflow.com/questions/967262/is-there-a-good-haml-erb-html-converter
-
-## Formating dates
-
-http://stackoverflow.com/questions/35633851/date-customization-in-ruby-on-rails
-
-http://stackoverflow.com/questions/22255476/rails-formatting-date
-
-## Seed Database
-
-https://www.quora.com/Is-there-a-way-to-seed-fake-profile-photos-in-a-rails-application-along-the-lines-of-the-Faker-gem
-
-## Turbolinks
-
-https://thoughtbot.com/upcase/videos/turbolinks
-
-http://geekmonkey.org/2012/09/introducing-turbolinks-for-rails-4-0/
-
-## Wysiwyg
-
-using ckeditor with rails: http://wendybeth.github.io/blog/2014/10/29/how-to-use-ckeditor-with-rails-s-4/
-
-http://stackoverflow.com/questions/18752766/rails-4-with-ckeditor
-
-## Static Pages
-
-http://blog.teamtreehouse.com/static-pages-ruby-rails
-
-http://stackoverflow.com/questions/4479233/static-pages-in-ruby-on-rails
 
 ## Rack
 
@@ -247,6 +199,28 @@ simple search example: http://www.korenlc.com/creating-a-simple-search-in-rails-
 
 search concern example: http://www.justinweiss.com/articles/search-and-filter-rails-models-without-bloating-your-controller/
 
+formating dates: http://stackoverflow.com/questions/22255476/rails-formatting-date
+
+seed photos: https://www.quora.com/Is-there-a-way-to-seed-fake-profile-photos-in-a-rails-application-along-the-lines-of-the-Faker-gem
+
+what are turbolinks: https://thoughtbot.com/upcase/videos/turbolinks
+
+using ckeditor wysiwyg with rails: http://wendybeth.github.io/blog/2014/10/29/how-to-use-ckeditor-with-rails-s-4/
+
+rails problems with ckeditor: http://stackoverflow.com/questions/18752766/rails-4-with-ckeditor
+
+generic code for static pages: http://blog.teamtreehouse.com/static-pages-ruby-rails
+
+static pages - different approaches: http://stackoverflow.com/questions/4479233/static-pages-in-ruby-on-rails
+
+simple form and bootstrap examples: http://simple-form-bootstrap.plataformatec.com.br/documentation
+
+simple form custom inputs: http://arjanvandergaag.nl/blog/simpleform-custom-inputs.html
+
+will_paginate gem explained: https://hackhands.com/pagination-rails-will_paginate-gem/
+
+styling pagination: https://thewebfellas.com/blog/revisited-roll-your-own-pagination-links-with-will_paginate-and-rails-3
+
 
 # Ruby
 
@@ -268,7 +242,11 @@ class methods vs instance methods: http://www.railstips.org/blog/archives/2009/0
 
 blocks: http://rubylearning.com/satishtalim/ruby_blocks.html
 
+string vs symbol: http://stackoverflow.com/questions/255078/whats-the-difference-between-a-string-and-a-symbol-in-ruby
 
+when use symbols instead of strings: http://stackoverflow.com/questions/16621073/when-to-use-symbols-instead-of-strings-in-ruby
+
+constantize: http://apidock.com/rails/String/constantize
 
 ## Ruby DSL
 
@@ -282,23 +260,8 @@ https://www.leighhalliday.com/creating-ruby-dsl
 
 https://quickleft.com/blog/drying-your-views-with-dsl-s/
 
-http://archive.oreilly.com/pub/post/what_is_a_dsl.html
-
 http://stackoverflow.com/questions/4936146/tutorials-for-writing-dsl-in-ruby
 
-## symbols
-
-http://stackoverflow.com/questions/8189416/why-use-symbols-as-hash-keys-in-ruby
-
-http://stackoverflow.com/questions/16621073/when-to-use-symbols-instead-of-strings-in-ruby
-
-http://stackoverflow.com/questions/255078/whats-the-difference-between-a-string-and-a-symbol-in-ruby
-
-## Constantize
-
-http://stackoverflow.com/questions/2913566/how-do-i-convert-a-string-to-a-class-method
-
-http://stackoverflow.com/questions/8036446/ruby-convert-string-to-method-name
 
 # CSS
 
@@ -318,15 +281,13 @@ jquery basics: http://jqfundamentals.com/
 
 using ajax in rails: https://launchschool.com/blog/the-detailed-guide-on-how-ajax-works-with-ruby-on-rails
 
-## ember.js
+## js frameworks
 
-from rails to ember: http://fromrailstoember.com/
-
-## react.js
+from rails to ember.js: http://fromrailstoember.com/
 
 react on rails: https://medium.com/@fkadev/r³-rails-react-redux-cef9a6e13e32
 
-1 hour course: https://www.udemy.com/react-basic-in-just-1-hour/
+1 hour react course: https://www.udemy.com/react-basic-in-just-1-hour/
 
 # GIT
 
@@ -340,44 +301,37 @@ branching: https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merg
 
 https://vertalab.com/blog/ruby-on-rails-application-examples
 
-
-## Clean Code
-
-https://allenan.com/refactoring-rails-views/
-
-http://codefol.io/posts/Where-Do-I-Put-My-Code
-
-https://infinum.co/the-capsized-eight/articles/top-8-tools-for-ruby-on-rails-code-optimization-and-cleanup
-
-http://stackoverflow.com/questions/14044681/fat-models-and-skinny-controllers-sounds-like-creating-god-models
-
 ## job interviews
 
-http://www.skilledup.com/articles/ruby-on-rails-interview-questions-answers
+interview questions with answers: http://www.skilledup.com/articles/ruby-on-rails-interview-questions-answers
 
-https://www.quora.com/How-do-I-prepare-for-an-entry-level-Ruby-on-Rails-developer-interview-What-questions-should-I-expect
+rails entry level - what questions should you expect: know:https://www.quora.com/How-do-I-prepare-for-an-entry-level-Ruby-on-Rails-developer-interview-What-questions-should-I-expect
 
-https://www.quora.com/What-skills-must-a-Junior-Rails-Developer-need-know-in-order-to-be-successful-in-getting-an-entry-level-position
+rails entry level - what should you know: https://www.quora.com/What-skills-must-a-Junior-Rails-Developer-need-know-in-order-to-be-successful-in-getting-an-entry-level-position
 
-https://github.com/gregstallings/ruby-trivia
+ruby quiz questions with answers: https://github.com/gregstallings/ruby-trivia
 
-https://www.interviewcake.com/
+interview tips: https://www.interviewcake.com/
 
-https://gist.github.com/ryansobol/5252653
+15 ruby interview questions: https://gist.github.com/ryansobol/5252653
 
-## Becoming junior
+becoming junior developer: https://ericbrooke.wordpress.com/2014/02/23/becoming-a-junior-rails-developer/
 
-https://ericbrooke.wordpress.com/2014/02/23/becoming-a-junior-rails-developer/
+## Clean code and code quality
 
-## Common mistakes
+refactoring views: https://allenan.com/refactoring-rails-views/
 
-https://www.toptal.com/ruby-on-rails/top-10-mistakes-that-rails-programmers-make
+where put code: http://codefol.io/posts/Where-Do-I-Put-My-Code
 
-http://blog.sundaycoding.com/blog/2015/01/31/11-easy-to-fix-ruby-slash-ruby-on-rails-mistakes/
+code optimization and cleanup: https://infinum.co/the-capsized-eight/articles/top-8-tools-for-ruby-on-rails-code-optimization-and-cleanup
 
-## Code quality
+fat models and skinny controllers: http://stackoverflow.com/questions/14044681/fat-models-and-skinny-controllers-sounds-like-creating-god-models
 
-http://www.codelitt.com/blog/pragmatic-approach-building-ruby-rails-apps-quickly-quality-code/
+top 10 mistakes: https://www.toptal.com/ruby-on-rails/top-10-mistakes-that-rails-programmers-make
+
+11 easy to fix mistakes: http://blog.sundaycoding.com/blog/2015/01/31/11-easy-to-fix-ruby-slash-ruby-on-rails-mistakes/
+
+a lot about gems for quality: http://www.codelitt.com/blog/pragmatic-approach-building-ruby-rails-apps-quickly-quality-code/
 
 ## ZSH Shell
 
