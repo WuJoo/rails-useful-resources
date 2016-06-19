@@ -43,6 +43,8 @@ sql tree structure2: https://hashrocket.com/blog/posts/recursive-sql-in-activere
 
 mongo db tree structure: https://www.codementor.io/mongodb/tutorial/storing-tree-structures-in-mongodb-example-code
 
+extending active record: http://stackoverflow.com/questions/2328984/rails-extending-activerecordbase
+
 ### Migrations
 
 rename column: http://stackoverflow.com/questions/1992019/how-can-i-rename-a-database-column-in-a-ruby-on-rails-migration
@@ -64,6 +66,8 @@ order by count of has_many :through association: http://elegantbrew.tumblr.com/p
 many to many associations in rails: http://joshfrankel.me/blog/2016/how-to/create-a-many-to-many-activerecord-association-in-ruby-on-rails/
 
 polymorphic associations: https://gorails.com/episodes/comments-with-polymorphic-associations
+
+associations reminder: https://www.sitepoint.com/brush-up-your-knowledge-of-rails-associations/
 
 ### Includes
 
@@ -214,12 +218,15 @@ will_paginate gem explained: https://hackhands.com/pagination-rails-will_paginat
 
 styling pagination: https://thewebfellas.com/blog/revisited-roll-your-own-pagination-links-with-will_paginate-and-rails-3
 
+directory structure: https://www.sitepoint.com/a-quick-study-of-the-rails-directory-structure/
 
 # Ruby
 
 operator !!: http://stackoverflow.com/questions/524658/what-does-mean-in-ruby
 
 operator &.: http://mitrev.net/ruby/2015/11/13/the-operator-in-ruby/
+
+&: shortcut: http://stackoverflow.com/questions/1217088/what-does-mapname-mean-in-ruby
 
 %w array: http://stackoverflow.com/questions/4455429/rails-using-w
 
@@ -241,6 +248,10 @@ when use symbols instead of strings: http://stackoverflow.com/questions/16621073
 
 constantize: http://apidock.com/rails/String/constantize
 
+ruby scope: https://www.sitepoint.com/understanding-scope-in-ruby/
+
+modules - include vs extend: https://samurails.com/interview/include-vs-extend-ruby/
+
 ## Ruby DSL
 
 https://robots.thoughtbot.com/writing-a-domain-specific-language-in-ruby
@@ -259,6 +270,11 @@ http://stackoverflow.com/questions/4936146/tutorials-for-writing-dsl-in-ruby
 # CSS
 
 css modules in rails: https://medium.com/@fkadev/how-i-implemented-css-modules-to-ruby-on-rails-easily-abb324ce22d
+
+div vs span: http://stackoverflow.com/questions/183532/what-is-the-difference-between-html-tags-div-and-span
+
+block vs inline: http://stackoverflow.com/questions/3099030/displayinline-vs-displayblock
+
 
 # Javascript
 
