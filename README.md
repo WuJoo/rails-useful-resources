@@ -7,9 +7,11 @@ guides: http://guides.rubyonrails.org/
 
 Michael Hartl book/tutorial: https://www.railstutorial.org/book
 
+The Odin Project course: http://www.theodinproject.com/ruby-on-rails
+
 ## How to learn rails
 
-https://medium.com/@javier_noris/an-outline-to-learning-to-code-in-1-year-572a1a78fa62#.b2jcohyze
+rails in 1 year: https://medium.com/@javier_noris/an-outline-to-learning-to-code-in-1-year-572a1a78fa62#.b2jcohyze
 
 ## Style guides
 
@@ -24,6 +26,8 @@ generate model/resource/scaffold: http://www.korenlc.com/rails-generate-model-vs
 rspec generate: https://www.relishapp.com/rspec/rspec-rails/docs/generators
 
 ## Active Record
+
+sql basics: http://www.theodinproject.com/ruby-on-rails/databases-and-sql
 
 what is index in database: http://stackoverflow.com/questions/1108/how-does-database-indexing-work
 
@@ -132,41 +136,39 @@ understanding rack: https://blog.engineyard.com/2015/understanding-rack-apps-and
 
 http://stackoverflow.com/questions/2256569/what-is-rack-middleware
 
-## Nested forms
+## Forms and nested forms
 
-http://mendelk.github.io/blog/2013/07/18/patterns-for-saving-associated-model-data-in-rails/
+nested attributes docs: http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html
 
-https://www.sitepoint.com/complex-rails-forms-with-nested-attributes/
+patterns for saving associated model data: http://mendelk.github.io/blog/2013/07/18/patterns-for-saving-associated-model-data-in-rails/
 
-http://www.createdbypete.com/articles/working-with-nested-forms-and-a-many-to-many-association-in-rails-4/
+validating nested associations: http://homeonrails.com/2012/10/validating-nested-associations-in-rails/
 
-http://railscasts.com/episodes/196-nested-model-form-part-1
+validate number of nested attributes: http://stackoverflow.com/questions/2595969/validate-number-of-nested-attributes
 
-http://homeonrails.com/2012/10/validating-nested-associations-in-rails/
+simple form and nested resources: http://stackoverflow.com/questions/18436777/how-should-i-use-rails-and-simple-form-for-nested-resources
 
-http://stackoverflow.com/questions/2595969/validate-number-of-nested-attributes
-
-http://stackoverflow.com/questions/18436777/how-should-i-use-rails-and-simple-form-for-nested-resources
-
-http://stackoverflow.com/questions/15568431/adding-dynamic-fields-to-nested-form-through-ajax
+Adding fields to nested form through AJAX: http://stackoverflow.com/questions/15568431/adding-dynamic-fields-to-nested-form-through-ajax
 
 ## Authentication and authorization
 
-https://launchschool.com/blog/how-to-use-devise-in-rails-for-authentication
+sessions and cookies: http://www.theodinproject.com/ruby-on-rails/sessions-cookies-and-authentication
 
-https://github.com/RolifyCommunity/rolify/wiki/Devise---CanCanCan---rolify-Tutorial
+devise authentication basics: https://launchschool.com/blog/how-to-use-devise-in-rails-for-authentication
 
-http://through-voidness.blogspot.com/2013/10/advanced-rails-4-authorization-with.html
+using devise + cancancan + rolify: https://github.com/RolifyCommunity/rolify/wiki/Devise---CanCanCan---rolify-Tutorial
 
-http://blog.carbonfive.com/2013/10/21/migrating-to-pundit-from-cancan/
+allow users to manage only their own objects - cancan example: http://stackoverflow.com/questions/11753600/cancan-how-to-allow-users-to-update-and-delete-only-their-own-objects
 
-http://www.tonyamoyal.com/2010/07/28/rails-authentication-with-devise-and-cancan-customizing-devise-controllers/
+authorization with pundit: http://through-voidness.blogspot.com/2013/10/advanced-rails-4-authorization-with.html
 
-http://www.tonyamoyal.com/2010/09/29/rails-authentication-with-devise-and-cancan-part-2-restful-resources-for-administrators/
+migrating to pundit from cancan: http://blog.carbonfive.com/2013/10/21/migrating-to-pundit-from-cancan/
 
-http://stackoverflow.com/questions/11753600/cancan-how-to-allow-users-to-update-and-delete-only-their-own-objects
+
 
 ## Testing - RSpec
+
+rspec setup: https://www.sitepoint.com/learn-the-first-best-practices-for-rails-and-rspec/
 
 introduction to rspec: http://blog.teamtreehouse.com/an-introduction-to-rspec
 
@@ -220,6 +222,10 @@ styling pagination: https://thewebfellas.com/blog/revisited-roll-your-own-pagina
 
 directory structure: https://www.sitepoint.com/a-quick-study-of-the-rails-directory-structure/
 
+mailers: http://www.theodinproject.com/ruby-on-rails/mailers
+
+custom 404 page: http://thepugautomatic.com/2014/08/404-with-rails-4/
+
 # Ruby
 
 operator !!: http://stackoverflow.com/questions/524658/what-does-mean-in-ruby
@@ -254,17 +260,16 @@ modules - include vs extend: https://samurails.com/interview/include-vs-extend-r
 
 ## Ruby DSL
 
-https://robots.thoughtbot.com/writing-a-domain-specific-language-in-ruby
+DSL use case and basic tools: http://engineering.gusto.com/benefits-of-writing-a-dsl/
 
-http://engineering.gusto.com/benefits-of-writing-a-dsl/
+example of writing DSL in ruby: https://robots.thoughtbot.com/writing-a-domain-specific-language-in-ruby
 
-http://rubylearning.com/blog/2010/11/30/how-do-i-build-dsls-with-yield-and-instance_eval/
+another example of writing DSL: http://rubylearning.com/blog/2010/11/30/how-do-i-build-dsls-with-yield-and-instance_eval/
 
-https://www.leighhalliday.com/creating-ruby-dsl
+examples of DSLs in rails: https://www.leighhalliday.com/creating-ruby-dsl
 
-https://quickleft.com/blog/drying-your-views-with-dsl-s/
+example of DSL for DRYing views: https://quickleft.com/blog/drying-your-views-with-dsl-s/
 
-http://stackoverflow.com/questions/4936146/tutorials-for-writing-dsl-in-ruby
 
 
 # CSS
@@ -308,7 +313,7 @@ branching: https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merg
 
 ## Rails Apps Examples
 
-https://vertalab.com/blog/ruby-on-rails-application-examples
+list of popular web services built with rails: https://vertalab.com/blog/ruby-on-rails-application-examples
 
 ## job interviews
 
