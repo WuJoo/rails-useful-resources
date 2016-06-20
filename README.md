@@ -226,6 +226,12 @@ mailers: http://www.theodinproject.com/ruby-on-rails/mailers
 
 custom 404 page: http://thepugautomatic.com/2014/08/404-with-rails-4/
 
+acts_as_yaffle example: http://yehudakatz.com/2009/11/12/better-ruby-idioms/
+
+tagging: https://www.reddit.com/r/rails/comments/2chtgw/tagging_in_rails_4/
+
+pretty tags with select2: https://rcode5.wordpress.com/2013/03/07/acts_as_taggable_on-select2-super-easy-tags-in-rails/
+
 # Ruby
 
 operator !!: http://stackoverflow.com/questions/524658/what-does-mean-in-ruby
@@ -241,6 +247,8 @@ difference between class and klass: http://stackoverflow.com/questions/4299289/w
 metaprogramming: https://blog.codeship.com/metaprogramming-in-ruby/?utm_source=rubyweekly&utm_medium=email
 
 send method: http://stackoverflow.com/questions/3337285/what-does-send-do-in-ruby
+
+public_send: http://apidock.com/ruby/Object/public_send
 
 proc vs lambda: http://stackoverflow.com/questions/1740046/whats-the-difference-between-a-proc-and-a-lambda-in-ruby
 
