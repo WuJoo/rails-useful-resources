@@ -1,5 +1,5 @@
 # rails-useful-resources
-collection of useful links to blogs, articles, stackoverflow questions etc. which I collected during learning ruby on rails
+Collection of useful links for learning Ruby On Rails.
 
 ## For beginners
 
@@ -358,6 +358,16 @@ a lot about gems for quality: http://www.codelitt.com/blog/pragmatic-approach-bu
 ## ZSH Shell
 
 zsh for rails: https://viblo.asia/zenith.it/posts/aKYMNj6YM83E
+
+## IDE/Text Editor
+
+using atom: https://www.learnenough.com/text-editor-tutorial
+
+emacs for beginers: http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs/
+
+emacs rails: https://www.emacswiki.org/emacs/RubyOnRails
+
+configuring emacs for rails: https://lorefnon.me/2014/02/02/configuring-emacs-for-rails.html
 
 ## Interesting talks:
 
