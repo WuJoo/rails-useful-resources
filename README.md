@@ -9,6 +9,8 @@ Michael Hartl book/tutorial: https://www.railstutorial.org/book
 
 The Odin Project course: http://www.theodinproject.com/ruby-on-rails
 
+Ruby course (including metaprogramming): https://rubymonk.com
+
 ## How to learn rails
 
 rails in 1 year: https://medium.com/@javier_noris/an-outline-to-learning-to-code-in-1-year-572a1a78fa62#.b2jcohyze
@@ -40,6 +42,8 @@ self references: http://stackoverflow.com/questions/6097288/how-can-i-do-self-re
 pluck docs: http://apidock.com/rails/ActiveRecord/Calculations/pluck
 
 collect vs pluck: http://stackoverflow.com/questions/12176102/what-is-the-difference-between-pluck-and-collect-in-rails
+
+pluck vs select performance: http://gavinmiller.io/2013/getting-to-know-pluck-and-select/
 
 sql tree structure1: https://www.leighhalliday.com/tree-structures-in-your-rails-models
 
@@ -256,15 +260,26 @@ class methods vs instance methods: http://www.railstips.org/blog/archives/2009/0
 
 blocks: http://rubylearning.com/satishtalim/ruby_blocks.html
 
-string vs symbol: http://stackoverflow.com/questions/255078/whats-the-difference-between-a-string-and-a-symbol-in-ruby
-
-when use symbols instead of strings: http://stackoverflow.com/questions/16621073/when-to-use-symbols-instead-of-strings-in-ruby
+all about symbols: https://gist.github.com/ryansobol/9b0b6995a7ae806cd008
 
 constantize: http://apidock.com/rails/String/constantize
 
 ruby scope: https://www.sitepoint.com/understanding-scope-in-ruby/
 
 modules - include vs extend: https://samurails.com/interview/include-vs-extend-ruby/
+
+shift: http://stackoverflow.com/questions/3718625/what-does-rubys-arrayshift-do
+
+all about hashes: https://gist.github.com/ryansobol/3c1d6104c89c5e47d3b3
+
+hash use cases: http://blog.8thcolor.com/en/2014/03/7-daily-use-cases-of-ruby-hash/
+
+string use cases: http://blog.8thcolor.com/en/2014/04/7-daily-use-cases-of-ruby-string/
+
+array use cases: http://blog.8thcolor.com/en/2014/02/7-daily-use-cases-of-ruby-array/
+
+block_given? method: http://apidock.com/ruby/Kernel/block_given%3F
+
 
 ## Ruby DSL
 
