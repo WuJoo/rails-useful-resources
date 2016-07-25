@@ -11,6 +11,8 @@ The Odin Project course: http://www.theodinproject.com/ruby-on-rails
 
 Ruby course (including metaprogramming): https://rubymonk.com
 
+APIs on Rails Book: http://apionrails.icalialabs.com/book/
+
 ## How to learn rails
 
 rails in 1 year: https://medium.com/@javier_noris/an-outline-to-learning-to-code-in-1-year-572a1a78fa62#.b2jcohyze
@@ -28,6 +30,10 @@ generate model/resource/scaffold: http://www.korenlc.com/rails-generate-model-vs
 rspec generate: https://www.relishapp.com/rspec/rspec-rails/docs/generators
 
 ## Active Record
+
+brief introduction: https://prograils.com/posts/active-record-brief-introduction-for-beginners
+
+using mysql with rails: https://www.digitalocean.com/community/tutorials/how-to-use-mysql-with-your-ruby-on-rails-application-on-ubuntu-14-04
 
 sql basics: http://www.theodinproject.com/ruby-on-rails/databases-and-sql
 
@@ -72,6 +78,8 @@ order by count of has_many :through association: http://elegantbrew.tumblr.com/p
 ### Associations
 
 many to many associations in rails: http://joshfrankel.me/blog/2016/how-to/create-a-many-to-many-activerecord-association-in-ruby-on-rails/
+
+has_and_belongs_to_many: http://stackoverflow.com/questions/4381154/rails-migration-for-has-and-belongs-to-many-join-table
 
 polymorphic associations: https://gorails.com/episodes/comments-with-polymorphic-associations
 
@@ -236,6 +244,8 @@ tagging: https://www.reddit.com/r/rails/comments/2chtgw/tagging_in_rails_4/
 
 pretty tags with select2: https://rcode5.wordpress.com/2013/03/07/acts_as_taggable_on-select2-super-easy-tags-in-rails/
 
+paypal integration in rails: http://findnerd.com/list/view/Integrating-Paypal-In-Rails-Application-Part-1/22009/
+
 # Ruby
 
 operator !!: http://stackoverflow.com/questions/524658/what-does-mean-in-ruby
@@ -280,6 +290,10 @@ array use cases: http://blog.8thcolor.com/en/2014/02/7-daily-use-cases-of-ruby-a
 
 block_given? method: http://apidock.com/ruby/Kernel/block_given%3F
 
+pretty formatting: http://stackoverflow.com/questions/1224525/how-to-get-nice-formatting-in-the-rails-console
+
+11 ruby tricks: http://www.blackbytes.info/2016/01/ruby-tricks/
+
 
 ## Ruby DSL
 
@@ -309,6 +323,8 @@ block vs inline: http://stackoverflow.com/questions/3099030/displayinline-vs-dis
 javascript for rails: https://www.netguru.co/blog/java-script-ruby-on-rails-resources
 
 about functions: https://javascriptweblog.wordpress.com/2010/07/06/function-declarations-vs-function-expressions/
+
+about prototypes: http://sporto.github.io/blog/2013/02/22/a-plain-english-guide-to-javascript-prototypes/
 
 ## jquery
 
@@ -383,6 +399,38 @@ emacs for beginers: http://www.jesshamrick.com/2012/09/10/absolute-beginners-gui
 emacs rails: https://www.emacswiki.org/emacs/RubyOnRails
 
 configuring emacs for rails: https://lorefnon.me/2014/02/02/configuring-emacs-for-rails.html
+
+useful atom packages:
+
+https://atom.io/packages/todo-show
+
+https://atom.io/packages/open-recent
+
+https://atom.io/themes/monokai-seti
+
+https://atom.io/themes/seti-ui
+
+https://atom.io/packages/minimap
+
+https://atom.io/packages/highlight-selected
+
+https://atom.io/packages/minimap-highlight-selected
+
+https://atom.io/packages/autoclose-html
+
+https://atom.io/packages/pigments
+
+https://atom.io/packages/rails-snippets
+
+https://atom.io/packages/rails-model-schema
+
+https://atom.io/packages/rails-rspec
+
+https://atom.io/packages/rails-transporter
+
+https://atom.io/packages/rails-partials
+
+https://atom.io/packages/color-picker
 
 ## Interesting talks:
 
